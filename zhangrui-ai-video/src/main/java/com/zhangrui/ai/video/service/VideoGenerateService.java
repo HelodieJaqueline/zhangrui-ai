@@ -62,13 +62,13 @@ public class VideoGenerateService {
             // 清理临时文件
             context.cleanup();
             //清理最终生成的视频文件
-            if (path != null) {
+/*            if (path != null) {
                 try {
                     Files.deleteIfExists(path);
                 } catch (IOException e) {
                     log.error("delete file failed:{}", path, e);
                 }
-            }
+            }*/
         }
     }
 }
