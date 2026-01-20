@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: zhangrui-ai-video
+server:
+  servlet:
+    context-path: /ai-video-record
+
